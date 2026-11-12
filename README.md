@@ -145,12 +145,13 @@ The application creates its required tables automatically on startup. Keep the c
 
 ## Uploading Data
 
-The sidebar also includes **Kaggle A/B dataset (zhangluyuan)**. It loads the
-bundled `data/ab_data.csv` file and maps `timestamp` to `date` and `landing_page`
-to `page_type`; the original downloaded file is otherwise retained unchanged.
-The source is [Luyuan Zhang's A/B testing dataset on Kaggle](https://www.kaggle.com/datasets/zhangluyuan/ab-testing).
-Kaggle lists its license as **Unknown**, so verify the current reuse terms before
-redistributing the dataset or deploying it in a public application. See
+If you have verified redistribution rights and provide `data/ab_data.csv`
+locally, the sidebar will include **Kaggle A/B dataset (zhangluyuan)**. The
+loader maps `timestamp` to `date` and `landing_page` to `page_type`; the source
+CSV itself is not modified. The source is
+[Luyuan Zhang's A/B testing dataset on Kaggle](https://www.kaggle.com/datasets/zhangluyuan/ab-testing).
+Kaggle lists its license as **Unknown**, so this repository and its public demo
+do not redistribute the CSV. See
 [`data/KAGGLE_DATASET.md`](data/KAGGLE_DATASET.md) for attribution and data notes.
 
 This educational dataset contains repeated user IDs and rows where the assigned
