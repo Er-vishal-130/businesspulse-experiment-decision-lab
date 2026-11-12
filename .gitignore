@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.env
+*.sqlite3
+*.db
+.streamlit/secrets.toml
+.env.*
+!.env.example
+.DS_Store
+data/ab_data.csv
+app_backup_original.py
+ui_enhancement_package.py
