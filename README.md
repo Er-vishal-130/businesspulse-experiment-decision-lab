@@ -193,6 +193,8 @@ A statistically significant result is still interpreted in the context of operat
 ## Public deployment on Streamlit Community Cloud
 
 GitHub stores the source code; Streamlit Community Cloud runs the Python app.
+Live demo: https://businesspulse-experiment-decision-lab.streamlit.app/
+
 After pushing this repository to GitHub:
 
 1. Sign in to [Streamlit Community Cloud](https://share.streamlit.io/) with GitHub.
